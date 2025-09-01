@@ -1,0 +1,47 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.trafikljus {
+    background-color: black;
+    padding: 30px;
+    border-radius: 150px;
+    margin-top: 150px;
+}
+
+.ljus {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 30px;
+    
+}
+
+.rod {
+    background-color: rgb(243, 140, 140);
+}
+
+.gul {
+    background-color: rgb(243, 243, 176);
+}
+
+.gron {
+    background-color: rgb(195, 244, 195);
+}
+
+.rod:hover{
+    background-color: red;
+}
+
+.gul:hover {
+    background-color: yellow;
+}
+
+.gron:hover  {
+    background-color: green;
+}
